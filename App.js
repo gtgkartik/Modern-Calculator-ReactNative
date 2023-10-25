@@ -7,7 +7,8 @@ import {image} from "./assets/background.png"
 export default function App() {
   return (
     <View style={styles.container}>
-    <ImageBackground source={image} resizeMode="cover" style={styles.image}>
+       {/* <View style={styles.overlayView} /> */}
+    <ImageBackground blurRadius={5} source={require('./assets/background.png')} resizeMode="cover" style={styles.image}>
     </ImageBackground>
   </View>
   );
@@ -16,17 +17,21 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#000000"
   },
   image: {
     flex: 1,
     justifyContent: 'center',
+    opacity:0.7,
+    
   },
-  text: {
-    color: 'white',
-    fontSize: 42,
-    lineHeight: 84,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    backgroundColor: '#000000c0',
-  },
+//   overlayView: {
+//     height: "100%",
+//     width: "100%",
+//     position: 'absolute',
+//     opacity:0.2,
+//     backgroundColor: 'rgba(0, 204, 0, 0.5)',
+
+// }
+
 });
