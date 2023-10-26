@@ -5,7 +5,8 @@
 
 A modern and feature-rich calculator app built using React Native.
 
-![Calculator Image](/modern-calculator//UI%20Design//calculator%20design%20dribble.jpeg)
+![asdasd](https://github.com/gtgkartik/Modern-Calculator-ReactNative/assets/37100054/ccbccfab-4bc4-4475-84e0-8b5b81964a81)
+
 
 ## Table of Contents
 
