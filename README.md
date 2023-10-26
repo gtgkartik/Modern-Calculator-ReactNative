@@ -59,8 +59,16 @@ These instructions will help you set up the project on your local machine for de
 
 4. Run on Android or iOS:
 
-For Android, run npm run android.
-For iOS, run npm run ios.
+For Android, 
+
+```
+npm run android.
+```
+
+For iOS,
+```
+ run npm run ios.
+```
 
 6. Production
 
